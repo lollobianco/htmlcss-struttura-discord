@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Open+Sans&display=swap');
+
 *{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
 }
 
 header{
@@ -10,6 +17,8 @@ header{
 
 li{
    list-style: none;
+   font-size: 1.2rem;
+   line-height: 40px;
 }
 
 .flex{
@@ -27,6 +36,7 @@ li{
 .flex-footer-1{
    display: flex;
    flex-direction: row;
+   justify-content: space-between;
 }
 
 .flex-footer-2{
@@ -53,65 +63,144 @@ li{
    height: 100px;
 }
 
-.list-menu{
+.menu{
    background-color: #A7EEAE;
-   width: 500px;
+   width: 40%;
+   margin: auto;
    height: 100px;
 }
 
-.button{
-   width: 150px;
+.list-menu{
    height: 100px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   color: #FFF;
+   
+}
+
+.button-container{
    background-color: #A7EEAE;
+   height: 100px;
+   width: 150px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.button{
+   border: none;
+   border-radius: 40px;
+   font-size: 1.5rem;
+   padding: 20px 30px;
+   margin: 30px 3px;
+}
+
+.login{
+   background-color: #FFF;
+   font-size: 1.2rem;
+   padding: 12px 15px;
+}
+
+.ds-web{
+   background-color: #23272A;
+   color: white;
+}
+
+.download::before{
+   content: "\2193";
+   margin-right: 10px;
+}
+
+.download{
+   background-color: #FFFFFF;
 }
 
 .container-1{
    width: 40%;
    margin: auto;
+   text-align: center;
    background-color: #EC8E37;
+   color: #FFF;
    height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   line-height: 28px;
+   font-size: 1.5rem;
+}
+
+.container-1 h1{
+   margin-bottom: 70px;
+   font-size: 3.5rem;
+   font-weight: 700;
 }
 
 .container-section{
-   width: 55%;
+   width: 50%;
    margin: auto;
    padding: 50px 0;
 }
 
 .image{
    height: 400px;
-   flex-basis: 49%;
+   flex-basis: 42%;
    background-color: #A7EEAE;
    border: 1px solid black;
 }
 
 .text{
-   height: 400px;
-   flex-basis: 49%;
+   flex-basis:42%;
    background-color: #32AE3F;
    border: 1px solid black;
 }
 
+.text h2{
+   font-size: 4rem;
+   margin-bottom: 25px;
+}
+
+.text p{
+   font-size: 1.5rem;
+   line-height: 40px;
+}
+
+.text, .inverted{
+   text-align: center;
+}
+
 .subtitle-button{
-   height: 400px;
    order: 3;
+   text-align: center;
+   font-size: 1.7rem;
    background-color: #12621A;
    border: 1px solid black;
 }
 
+.subtitle-button button{
+   background-color: #8EA1E1;
+}
+
 .social{
-   height: 700px;
-   width: 200px;
    background-color: #F32E2E;
    flex-grow: 1;
-   border: 1px solid black;
+}
+
+.social h3{
+   font-size: 2rem;
+   color: #7289DA;
+}
+
+.section-5{
+
 }
 
 .section-5 ul{
-   height: 700px;
-   width: 240px;
+   flex-basis: 20%;
    background-color: #7B2727;
-   border: 1px solid black;
+   border-bottom: 1px solid #2996E5;
 }
 
 .section-2, .section-4{
@@ -122,6 +211,10 @@ li{
    background-color: #2996E5;
 }
 
-.section-4 div{
+/* .section-4 div{
    width: 1310px;
+} */
+
+.special{
+   color: #2996E5;
 }
