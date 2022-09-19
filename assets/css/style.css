@@ -18,9 +18,17 @@ li{
    justify-content: space-between;
 }
 
+.flex-column{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
 .image.inverted{
    order: 2;
 }
+
+
 
 .top-menu{
    width: 80%;
@@ -61,18 +69,29 @@ li{
 
 .image{
    height: 400px;
-   width: 500px;
+   width: 640px;
    background-color: #A7EEAE;
    border: 1px solid black;
 }
 
 .text{
    height: 400px;
-   width: 500px;
+   width: 640px;
    background-color: #32AE3F;
    border: 1px solid black;
 }
 
-.section-2{
+.subtitle-button{
+   height: 400px;
+   order: 3;
+   background-color: #12621A;
+   border: 1px solid black;
+}
+
+.section-2, .section-4{
    background-color: #5E5E5E;
+}
+
+.section-4 div{
+   width: 1310px;
 }
