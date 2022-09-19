@@ -4,6 +4,10 @@
    box-sizing: border-box;
 }
 
+header{
+   background-color: #D9D9D9;
+}
+
 li{
    list-style: none;
 }
@@ -29,7 +33,7 @@ li{
 
 .list-menu{
    background-color: #A7EEAE;
-   width: 300px;
+   width: 500px;
    height: 100px;
 }
 
@@ -37,4 +41,11 @@ li{
    width: 150px;
    height: 100px;
    background-color: #A7EEAE;
+}
+
+.container-1{
+   width: 50%;
+   margin: auto;
+   background-color: #EC8E37;
+   height: 500px;
 }
