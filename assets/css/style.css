@@ -79,14 +79,14 @@ li{
 
 .image{
    height: 400px;
-   width: 640px;
+   flex-basis: 49%;
    background-color: #A7EEAE;
    border: 1px solid black;
 }
 
 .text{
    height: 400px;
-   width: 640px;
+   flex-basis: 49%;
    background-color: #32AE3F;
    border: 1px solid black;
 }
