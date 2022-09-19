@@ -1,0 +1,40 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+li{
+   list-style: none;
+}
+
+.flex{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.top-menu{
+   width: 80%;
+   margin: auto;
+   background-color: #FF3737;
+   height: 100px;
+}
+
+.logo{
+   background-color: #A7EEAE;
+   width: 150px;
+   height: 100px;
+}
+
+.list-menu{
+   background-color: #A7EEAE;
+   width: 300px;
+   height: 100px;
+}
+
+.login-button{
+   width: 150px;
+   height: 100px;
+   background-color: #A7EEAE;
+}
