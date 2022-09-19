@@ -18,6 +18,10 @@ li{
    justify-content: space-between;
 }
 
+.image.inverted{
+   order: 2;
+}
+
 .top-menu{
    width: 80%;
    margin: auto;
@@ -44,8 +48,31 @@ li{
 }
 
 .container-1{
-   width: 50%;
+   width: 40%;
    margin: auto;
    background-color: #EC8E37;
    height: 500px;
+}
+
+.container-section{
+   width: 55%;
+   margin: auto;
+}
+
+.image{
+   height: 400px;
+   width: 500px;
+   background-color: #A7EEAE;
+   border: 1px solid black;
+}
+
+.text{
+   height: 400px;
+   width: 500px;
+   background-color: #32AE3F;
+   border: 1px solid black;
+}
+
+.section-2{
+   background-color: #5E5E5E;
 }
