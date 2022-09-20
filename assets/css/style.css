@@ -167,7 +167,7 @@ li{
    line-height: 40px;
 }
 
-.text, .inverted{
+.section-4 div{
    text-align: center;
 }
 
@@ -193,10 +193,6 @@ li{
    color: #7289DA;
 }
 
-.section-5{
-
-}
-
 .section-5 ul{
    flex-basis: 20%;
    background-color: #7B2727;
@@ -210,10 +206,6 @@ li{
 .section-6 .container-section{
    background-color: #2996E5;
 }
-
-/* .section-4 div{
-   width: 1310px;
-} */
 
 .special{
    color: #2996E5;
